@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    color: #fff;
+}
+.container{
+    background: #4f0cec;
+    display: flex;
+    height: 410px;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.tempCalculate{
+    width: 100%;
+    padding: 0 20px;
+    margin: 25px 0;
+}
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.tempValue{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.tempValue p{
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    flex-basis: 42%;
+}
+.tempValue input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #fff;
+    background: #5c718ec7;
+    width: 55%;
+    padding: 10px;
+    flex-basis: 55%;
+}
+#con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#con span{
+    flex-basis: 48%;
+}
+#con span p{
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+    padding: 5px 10px;
+}
+#con span select{
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #fff;
+    background: #5c718ec7;
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.btn input{
+    font-size: 16px;
+    background-color: #2beb12;
+    padding: 10px;
+    flex-basis: 45%;
+    color: #fff;
+    flex-wrap: wrap;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.tempValue #answer{
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    flex-basis: 25%;
+}
+.tempValue #result{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #5c718ec7;
+    width: 60%;
+    padding: 10px;
+    flex-basis: 70%;
+    cursor: default;
+}
